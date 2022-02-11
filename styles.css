@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #16D9E3;
+  color: #000000;
 }
 
 .start {
@@ -39,7 +39,7 @@ h1 {
   height: 100vh;
   width: 100vw;
   transition: margin 0.5s ease-out;
-  background: linear-gradient(90deg, #29323C 0%, #485563 100%);
+  background: linear-gradient(90deg, #3f2b01 0%, #f3df88 100%);
 }
 
 .screen.up {
@@ -61,6 +61,7 @@ h1 {
 .time-btn {
   background-color: transparent;
   border: 2px solid #C0C0C0;
+  border-radius: 50px;
   color: #fff;
   cursor: pointer;
   font-family: inherit;
@@ -69,8 +70,8 @@ h1 {
 }
 
 .time-btn:hover {
-  border: 2px solid #16D9E3;
-  color: #16D9E3;
+  border: 2px solid #000000;
+  color: #000000;
 }
 
 .hide {
@@ -88,8 +89,8 @@ h1 {
   position: relative;
   width: 500px;
   height: 500px;
-  background: linear-gradient(118.38deg, #29323C -4.6%, #485563 200.44%);
-  box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #475462;
+  background: linear-gradient(118.38deg, #553b02 -4.6%, #ffe46a 200.44%);
+  box-shadow: -8px -8px 20px #f6f7f8, 10px 7px 20px #f3f4f5;
   border-radius: 30px;
   overflow: hidden;
 }
